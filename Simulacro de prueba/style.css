@@ -1,0 +1,75 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box; 
+}
+/*-------------------------para el inicio------------------------*/    
+.header{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    background-image: url(imagenes/banner.webp);
+    background-size: cover;
+    background-position: center;
+    height: 70vh;
+}
+
+.navegacion{
+    display: flex;
+}
+.contiene{
+    display: flex;
+    width: 100vw;
+    justify-content: center;
+}
+
+.textos_header{
+    display: flex;
+    flex-direction: column;
+}
+.barra{
+    display: flex;
+    flex-direction: row;
+    gap: 40vw;
+}
+
+.navegacion ul{
+    display: flex;
+    flex-direction: row;
+    list-style: none;
+    gap: 5vw;
+}
+
+.contenido_principal{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    margin-left: 10vw;
+    margin-right: 10vw;
+}
+
+.blog{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+
+.blog img{
+    width: 60vh;
+}
+
+/*-----------------------------Para nosotros-----------------------*/
+
+.Nosotros{
+    display: flex;
+    flex-direction: column;
+    margin-left: 10vw;
+    margin-right: 10vw;
+}
+
+.about h2{
+    text-align: center;
+}
+
+.cafe_nosotros{
+    display: flex;
+}
